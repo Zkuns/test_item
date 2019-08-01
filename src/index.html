@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <div class='main-container'>
+      <%= require('html-loader!./template/scroll-images.html') %>
+      <%= require('html-loader!./template/tab-bar.html') %>
+      <div class='split-line'></div>
+      <%= require('html-loader!./template/description.html') %>
+      <%= require('html-loader!./template/user-info.html') %>
+      <%= require('html-loader!./template/comments.html') %>
+      <div class='split-line'></div>
+      <%= require('html-loader!./template/relative-item.html') %>
+      <div class='padding-content'></div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</html>
