@@ -7,7 +7,7 @@
     "html-loader": "^0.5.5",
     "jquery": "^3.4.0",
     "lodash": "^4.17.11",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   },
